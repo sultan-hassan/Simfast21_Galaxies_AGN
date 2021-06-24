@@ -1,3 +1,3 @@
 # Simfast21_Galaxies_AGN
 
-This is SimFast21 code including galaxies (https://arxiv.org/abs/1510.04280) and AGN  (https://arxiv.org/abs/1705.05398) source models
+This is a modified SimFast21, a code for simulating the 21cm signal during epoch of reionization, which includes recipes to model ionizing photons from galaxies (https://arxiv.org/abs/1510.04280) and AGN (https://arxiv.org/abs/1705.05398) source models, see simfast21.ini parameter file for details.

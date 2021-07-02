@@ -292,7 +292,7 @@ int main(int argc, char *argv[]) {
     /* calculate Rion if there is no SFRD file */
       if(global_use_SFR==0) {  /* assume there are no SFRD boxes... */
 	
-	sprintf(fname, "%s/Halos/halo_z%.3f_N%ld_L%.1f.dat.catalog",argv[1],redshift,global_N_halo,global_L/global_hubble); 
+	sprintf(fname, "%s/Halos/halonl_z%.3f_N%ld_L%.1f.dat.catalog",argv[1],redshift,global_N_halo,global_L/global_hubble); 
 	fid=fopen(fname,"rb");
 	if (fid==NULL) {printf("\nError reading %s file... Check path or if the file exists...",fname); exit (1);}
 	elem=fread(&nhalos,sizeof(long int),1,fid);
